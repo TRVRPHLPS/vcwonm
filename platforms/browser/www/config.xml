@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.virtogramma.app" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>VIRTOGRAMMA</name>
+    <description>
+        ВЫБИРАЙТЕ И БРОНИРУЙТЕ ЛУЧШИЕ ЗАВЕДЕНИЕ КИЕВА В 3D!
+    </description>
+    <author email="v@unispot.plus" href="http://virtogramma.com">
+        VIRTOGRAMMA by Unispot Plus
+    </author>
+    <content src="https://virtogramma.com" />
+    <access origin="*" />
+    <allow-navigation href="https://virtogramma.com*" />
+    <allow-navigation href="https://facebook.com*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+</widget>
