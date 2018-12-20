@@ -17,7 +17,7 @@
        under the License.
  */
 
-package com.virtogramma.appVIRTOGRAMMA;
+package com.virtogramma.app;
 
 import android.os.Bundle;
 import org.apache.cordova.*;
