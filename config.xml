@@ -11,9 +11,10 @@
     <access origin="*" />
 	<access origin="https://virtogramma.com*" />
 	<access origin="https://www.facebook.com*" />
-	<access origin="https://www.facebook.com*" />
+	<access origin="https://m.facebook.com*" />
     <allow-navigation href="https://virtogramma.com*" />
     <allow-navigation href="https://m.facebook.com*" />
+	<allow-navigation href="https://www.facebook.com*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
