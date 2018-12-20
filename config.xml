@@ -16,7 +16,7 @@
     <preference name="FadeSplashScreenDuration" value="5000" />
     <preference name="AutoHideSplashScreen" value="true" />
     <preference name="SplashShowOnlyFirstTime" value="false" />
-	<splash src="res/screen/android/screen-xxhdpi-portrait.png" />
+    <splash src="res/screen/android/screen-xxhdpi-portrait.png" />
     <preference name="FadeSplashScreen" value="false" />
     <allow-navigation href="https://virtogramma.com*" />
     <allow-navigation href="https://facebook.com*" />

@@ -20,6 +20,7 @@
     </author>
     <content src="https://virtogramma.com" />
     <access origin="*" />
+    <splash src="res/screen/android/screen-xxhdpi-portrait.png" />
     <allow-navigation href="https://virtogramma.com*" />
     <allow-navigation href="https://facebook.com*" />
     <allow-intent href="http://*/*" />
