@@ -13,8 +13,8 @@
     "cordova-plugin-inappbrowser": {
       "PACKAGE_NAME": "com.virtogramma.appVIRTOGRAMMA"
     },
-    "cordova-plugin-splashscreen": {
-      "PACKAGE_NAME": "com.virtogramma.appVIRTOGRAMMA"
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.virtogramma.app"
     }
   },
   "dependent_plugins": {}

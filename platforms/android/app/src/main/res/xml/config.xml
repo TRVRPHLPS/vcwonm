@@ -7,9 +7,8 @@
     <feature name="InAppBrowser">
         <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
     </feature>
-    <feature name="SplashScreen">
-        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
-        <param name="onload" value="true" />
+    <feature name="Camera">
+        <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
     </feature>
     <name>VIRTOGRAMMA</name>
     <description>
@@ -20,7 +19,6 @@
     </author>
     <content src="https://virtogramma.com" />
     <access origin="*" />
-    <splash src="res/screen/android/screen-xxhdpi-portrait.png" />
     <allow-navigation href="https://virtogramma.com*" />
     <allow-navigation href="https://facebook.com*" />
     <allow-intent href="http://*/*" />
@@ -46,11 +44,13 @@
     <icon density="xhdpi" src="res/icon/android/icon-96-xhdpi.png" />
     <preference name="loglevel" value="DEBUG" />
     <preference name="SplashScreen" value="screen" />
+    <preference name="ShowSplashScreen" value="true" />
     <preference name="UIWebViewBounce" value="false" />
     <preference name="DisallowOverscroll" value="true" />
-    <preference name="SplashScreenDelay" value="15000" />
-    <preference name="FadeSplashScreenDuration" value="5000" />
+    <preference name="SplashScreenDelay" value="5000" />
+    <preference name="SplashMaintainAspectRatio" value="false" />
+    <preference name="FadeSplashScreen" value="false" />
     <preference name="AutoHideSplashScreen" value="true" />
     <preference name="SplashShowOnlyFirstTime" value="false" />
-    <preference name="FadeSplashScreen" value="false" />
+    <preference name="ShowSplashScreenSpinner" value="true" />
 </widget>
