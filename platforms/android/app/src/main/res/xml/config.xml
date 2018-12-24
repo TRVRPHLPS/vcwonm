@@ -10,6 +10,14 @@
     <feature name="Camera">
         <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
     </feature>
+    <feature name="File">
+        <param name="android-package" value="org.apache.cordova.file.FileUtils" />
+        <param name="onload" value="true" />
+    </feature>
+    <allow-navigation href="cdvfile:*" />
+    <feature name="Capture">
+        <param name="android-package" value="org.apache.cordova.mediacapture.Capture" />
+    </feature>
     <name>VIRTOGRAMMA</name>
     <description>
         ВЫБИРАЙТЕ И БРОНИРУЙТЕ ЛУЧШИЕ ЗАВЕДЕНИЕ КИЕВА В 3D!
@@ -19,8 +27,12 @@
     </author>
     <content src="https://virtogramma.com" />
     <access origin="*" />
+    <access origin="https://virtogramma.com*" />
+    <access origin="https://www.facebook.com*" />
+    <access origin="https://m.facebook.com*" />
     <allow-navigation href="https://virtogramma.com*" />
-    <allow-navigation href="https://facebook.com*" />
+    <allow-navigation href="https://m.facebook.com*" />
+    <allow-navigation href="https://www.facebook.com*" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
     <allow-intent href="tel:*" />
@@ -28,29 +40,9 @@
     <allow-intent href="mailto:*" />
     <allow-intent href="geo:*" />
     <allow-intent href="market:*" />
-    <splash density="land-hdpi" src="res/screen/android/screen-hdpi-landscape.png" />
-    <splash density="land-ldpi" src="res/screen/android/screen-ldpi-landscape.png" />
-    <splash density="land-mdpi" src="res/screen/android/screen-mdpi-landscape.png" />
-    <splash density="land-xhdpi" src="res/screen/android/screen-xhdpi-landscape.png" />
-    <splash density="port-hdpi" src="res/screen/android/screen-hdpi-portrait.png" />
-    <splash density="port-ldpi" src="res/screen/android/screen-ldpi-portrait.png" />
-    <splash density="port-mdpi" src="res/screen/android/screen-mdpi-portrait.png" />
-    <splash density="port-xhdpi" src="res/screen/android/screen-xhdpi-portrait.png" />
-    <splash density="port-xxhdpi" src="res/screen/android/screen-xxhdpi-portrait.png" />
-    <splash density="port-xxxhdpi" src="res/screen/android/screen-xxxhdpi-portrait.png" />
     <icon density="ldpi" src="res/icon/android/icon-36-ldpi.png" />
     <icon density="mdpi" src="res/icon/android/icon-48-mdpi.png" />
     <icon density="hdpi" src="res/icon/android/icon-72-hdpi.png" />
     <icon density="xhdpi" src="res/icon/android/icon-96-xhdpi.png" />
     <preference name="loglevel" value="DEBUG" />
-    <preference name="SplashScreen" value="screen" />
-    <preference name="ShowSplashScreen" value="true" />
-    <preference name="UIWebViewBounce" value="false" />
-    <preference name="DisallowOverscroll" value="true" />
-    <preference name="SplashScreenDelay" value="5000" />
-    <preference name="SplashMaintainAspectRatio" value="false" />
-    <preference name="FadeSplashScreen" value="false" />
-    <preference name="AutoHideSplashScreen" value="true" />
-    <preference name="SplashShowOnlyFirstTime" value="false" />
-    <preference name="ShowSplashScreenSpinner" value="true" />
 </widget>

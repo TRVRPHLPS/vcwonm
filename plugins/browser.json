@@ -15,6 +15,12 @@
     },
     "cordova-plugin-camera": {
       "PACKAGE_NAME": "com.virtogramma.app"
+    },
+    "cordova-plugin-media-capture": {
+      "PACKAGE_NAME": "com.virtogramma.app"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.virtogramma.app"
     }
   },
   "dependent_plugins": {}
