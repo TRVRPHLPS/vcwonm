@@ -11,7 +11,7 @@
     <access origin="*" />
     <access origin="https://virtogramma.com*" />
     <access origin="https://www.facebook.com*" />
-	<access origin="https://www.facebook.com/login.php" />
+    <access origin="https://www.facebook.com/login.php" />
     <access origin="https://m.facebook.com*" />
     <allow-navigation href="https://virtogramma.com*" />
     <allow-navigation href="https://m.facebook.com*" />
@@ -41,4 +41,5 @@
     <plugin name="cordova-plugin-camera" spec="^4.0.3" />
     <plugin name="cordova-plugin-media-capture" spec="^3.0.2" />
     <plugin name="cordova-plugin-file" spec="^6.0.1" />
+    <plugin name="cordova-plugin-geolocation" spec="^4.0.1" />
 </widget>
