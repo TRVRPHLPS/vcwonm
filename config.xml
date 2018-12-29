@@ -7,7 +7,7 @@
     <author email="v@unispot.plus" href="http://virtogramma.com">
         VIRTOGRAMMA by Unispot Plus
     </author>
-    <content src="https://virtogramma.com" />
+    <content src="index.html" />
     <access origin="*" />
     <access origin="https://virtogramma.com*" />
     <access origin="https://www.facebook.com*" />
